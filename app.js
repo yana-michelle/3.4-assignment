@@ -32,5 +32,15 @@ const youtuber = {firstName:"Mark", lastName:"Fischbach", youtubeName:"Markiplie
     }
 };  //<== object
 
+function pressMe(event){
+    alert("Why did you press me?" + event.button);
+}
+
+let x = 1987;
+document.getElementById("demo").innerHTML =
+  x.toString() + "<br>" +
+   (1987).toString() + "<br>" +
+   (1900+ 87).toString();
+
 document.getElementById("demo").innerHTML = youtuber.fullName();
-document.getElementById("demo").innerHTML = youtuber.youtubeName();
+ 
