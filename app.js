@@ -27,8 +27,8 @@ const toLower = (text) => {
 toLower(favYoutuber);   //<== function
 
 function pressMe(event){
-    alert("Why did you press me?" + event.button);
-} 
+    alert("Why did you press me?" +" "+ event.button);
+};
 
 const movie = {name: "Parasite", director: "Bong Joon Ho", released: 2019}; //<== object
 
