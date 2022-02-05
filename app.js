@@ -26,21 +26,17 @@ const toLower = (text) => {
 }
 toLower(favYoutuber);   //<== function
 
+const movie = {name: "Parasite", director: "Bong Joon Ho", released: 2019;} //<== object
+
 const youtuber = {firstName:"Mark", lastName:"Fischbach", youtubeName:"Markiplier", age:32,
     fullName: function(){
         return this.firstName+" "+this.lastName;
     }
-};  //<== object
+};  //<== object method
 
 function pressMe(event){
     alert("Why did you press me?" + event.button);
-}
-
-let x = 1987;
-document.getElementById("demo").innerHTML =
-  x.toString() + "<br>" +
-   (1987).toString() + "<br>" +
-   (1900+ 87).toString();
+} //<== event
 
 document.getElementById("demo").innerHTML = youtuber.fullName();
  
