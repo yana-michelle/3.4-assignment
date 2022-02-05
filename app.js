@@ -28,7 +28,7 @@ toLower(favYoutuber);   //<== function
 
 function pressMe(event){
     alert("Why did you press me?" + event.button);
-} //<== event
+} 
 
 const movie = {name: "Parasite", director: "Bong Joon Ho", released: 2019}; //<== object
 
@@ -38,6 +38,4 @@ const youtuber = {firstName:"Mark", lastName:"Fischbach", youtubeName:"Markiplie
     }
 };  //<== object method
 
-
-document.getElementById("demo").innerHTML = youtuber.fullName();
  
