@@ -26,7 +26,11 @@ const toLower = (text) => {
 }
 toLower(favYoutuber);   //<== function
 
-const movie = {name: "Parasite", director: "Bong Joon Ho", released: 2019;} //<== object
+function pressMe(event){
+    alert("Why did you press me?" + event.button);
+} //<== event
+
+const movie = {name: "Parasite", director: "Bong Joon Ho", released: 2019}; //<== object
 
 const youtuber = {firstName:"Mark", lastName:"Fischbach", youtubeName:"Markiplier", age:32,
     fullName: function(){
@@ -34,9 +38,6 @@ const youtuber = {firstName:"Mark", lastName:"Fischbach", youtubeName:"Markiplie
     }
 };  //<== object method
 
-function pressMe(event){
-    alert("Why did you press me?" + event.button);
-} //<== event
 
 document.getElementById("demo").innerHTML = youtuber.fullName();
  
