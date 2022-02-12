@@ -30,7 +30,7 @@ function pressMe(event){
     alert("Why did you press me?" +" "+ event.button);
 };
 
-const movie = {name: "Parasite", director: "Bong Joon Ho", released: 2019}; //<== object
+const movie = {name: "Parasite", director: "Bong Joon Ho", released: 2019} //<== object
 
 const youtuber = {firstName:"Mark", lastName:"Fischbach", youtubeName:"Markiplier", age:32,
     fullName: function(){
